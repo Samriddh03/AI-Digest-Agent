@@ -1,3 +1,5 @@
+import os
+print("DEBUG ENV:", os.environ.get("NEWS_API_KEY"))
 from app.news_fetcher import fetch_ai_news
 from app.summarizer import summarize_article
 from app.shorts_generator import generate_shorts
